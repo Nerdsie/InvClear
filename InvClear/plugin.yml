@@ -1,0 +1,27 @@
+name: InvClear
+version: 1.0
+main: me.NerdsWBNerds.InvClear.InvClear
+commands:
+   clear:
+      description: Clear a player's inventory.
+      usage: /<command> [player]
+      aliases: [empty]
+   cleararmor:
+      description: Clear a player's armor.
+      usage: /<command> [player]
+      aliases: [cleararmour]
+   check:
+      description: Check for specific items in player's inventory.
+      usage: /<command> [player] [item]
+   remove:
+      description: Remove specific items from players inventory.
+      usage: /<command> [player] [amount/all] [item]
+      aliases: [delete]
+   add:
+      description: Add item to player's inventory
+      usage: /<command> [player] [amount] [item]
+      aliases: [give]
+   list:
+      description: List contents of player's inventory.
+      usage: /<command> [player]
+   
