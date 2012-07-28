@@ -3,7 +3,6 @@ package me.NerdsWBNerds.InvClear;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
